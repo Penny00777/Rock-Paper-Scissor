@@ -1,0 +1,44 @@
+
+.btn{
+    display:flex;
+    gap:20px;
+}
+.Container{
+    border:0.1px solid cyan;
+    padding:1rem 3rem;
+    width:500px;
+    height:500px;
+    position:absolute;
+    left:35%;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 3px 6px cyan;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border:0.3px solid cyan;
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #3498db;
+    color: white; 
+    transform: scale(1.1);
+  }
+  
+  button:focus {
+    outline: none; 
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); 
+  }
+  
